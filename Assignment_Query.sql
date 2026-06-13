@@ -119,3 +119,9 @@ SELECT b.booking_id, u.full_name, m.fixture, b.total_cost
 FROM Bookings AS b
 INNER JOIN Users AS u USING (user_id) 
 INNER JOIN Matches AS m USING (match_id);
+
+-- Query 4: SOLUTION 2ND VERSION
+SELECT b.booking_id, u.full_name, m.fixture, b.total_cost
+FROM Bookings AS b
+INNER JOIN Users AS u on b.user_id = u.user_id 
+INNER JOIN Matches AS m on b.match_id = m.match_id;
