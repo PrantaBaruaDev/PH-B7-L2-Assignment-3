@@ -68,7 +68,11 @@ This transactional table records individual ticket purchases by linking users to
 Design an Entity Relationship Diagram (ERD) for the Football Ticket Booking System.
 
 ## ERD Design Link
-ERD Design: [Design Link]()
+ERD Design (Public Link): [Design Public Link](https://lucid.app/lucidchart/bd9549cc-2f7c-48a5-a62a-d97c47a4f8b4/view)
+
+ERD Editable Design: [Editable Link](https://lucid.app/lucidchart/bd9549cc-2f7c-48a5-a62a-d97c47a4f8b4/edit?viewport_loc=-1611%2C-355%2C1631%2C787%2C0_0&invitationId=inv_5f585b23-989e-4c4c-bd2e-cc333414430d)
+
+### [ERD_diagram.jpeg](./ERD_diagram.jpeg)
 
 ### Required Tables
 
